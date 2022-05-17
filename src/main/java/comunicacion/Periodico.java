@@ -33,6 +33,6 @@ public class Periodico extends Escrito {
 		return getPaginas()*10*x;
 	}
 	public String toString() {
-		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia + "\n" + interpretacion;
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia ;
 	}
 }
