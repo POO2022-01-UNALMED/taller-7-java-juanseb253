@@ -30,11 +30,11 @@ public class Alfabeto extends Pictograma {
 		for (int i = 0; i< letras.length;i++) {
 			String c = letras[i];
 			if (i == letras.length-1) {
-				a.concat(c);
+				a = a.concat(c);
 			}
 			else {
-				a.concat(c);
-				a.concat(b);
+				a = a.concat(c);
+				a = a.concat(b);
 			}
 		}
 		return a;
